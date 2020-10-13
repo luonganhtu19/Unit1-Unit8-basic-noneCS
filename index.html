@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise</title>
+
+</head>
+<body >
+<form >
+
+    <!--    Unit1 -->
+    <fieldset STYLE="display: inline-block">
+            <legend>Unit 1</legend>
+            <p id="unit12"></p>
+            <input type="button" id="unit1-1" onclick="Unit1()" value="Unit1" >
+        </fieldset>
+
+    <!--    Unit2-->
+    <fieldset style="display: inline-block">
+        <legend>Unit2</legend>
+        <p id="unit2"></p>
+        <input type="number" id="unit2-1" disabled  value="0" placeholder="0">
+        <input type="button" onclick="Unit2()" value="Unit 2">
+    </fieldset>
+
+    <!--    Unit3-->
+    <fieldset style="display:inline-block;">
+        <legend>Unit 3 </legend>
+        <label for="Number1">The number of the sequence Fibolaci</label>
+        <input id="Number1" type="number" placeholder="0" value="0">
+        <input type="button" id="check" onclick="Unit3()" value="Check">
+        <p > Result: <span id="Output"></span></p>
+    </fieldset>
+
+    <!--    Unit4-->
+    <fieldset style="display: inline-block">
+        <legend> Unit4</legend>
+        <label for="int1"> The number is divisor </label>
+        <input id="int1" type="number" name="Number">
+        <input type="button" onclick="Unit4()" value="Sreach">
+        <p>Result: <span id="output4">""</span></p>
+    </fieldset>
+
+    <!--    Unit 5-->
+    <fieldset style="display: inline-block">
+        <legend> Unit5</legend>
+        <label for="int5"> The number  </label>
+        <input id="int5" type="number" name="Number">
+        <input type="button" onclick="Unit5()" value="Sreach">
+        <p> Sum of sequence: result= <span id="output5"> 0</span></p>
+    </fieldset>
+
+    <!--    Unit 6-->
+    <fieldset style="display: inline-block">
+        <legend> Unit6</legend>
+        <label for="int6"> The number  </label>
+        <input id="int6" type="number" name="Number">
+        <label for="int6_1">Amount </label>
+        <input type="number" id="int6_1" name="Amount">
+        <input type="button" onclick="Unit6()" value="Sreach">
+        <p> Sum of sequence: result= <span id="output6"> 0</span></p>
+    </fieldset>
+
+<!--    Unit 7-->
+    <fieldset style="display: inline-block">
+        <legend> Unit7</legend>
+        <label for="int7"> The number  </label>
+        <input id="int7" type="number" name="Number">
+        <input type="button" onclick="Unit7()" value="Sreach">
+        <p> Sum of sequence: result= <span id="output7"> 0</span></p>
+    </fieldset>
+
+<!--    Unit8-->
+
+    <fieldset style="display: inline-block">
+        <legend> Unit8</legend>
+        <input type="button" onclick="Unit8()" value="Play">
+        <p id="Ft">Khoang  du doan: from<span> " " to " "</span> </p>
+        <p id="ra8">Số trúng thưởng</p>
+        <p >Các số bạn đoán: <span id="int8"></span></p>
+        <p> Result: <span id="output8"> 0</span></p>
+    </fieldset>
+</form>
+<script src="functionCheck.js"></script>
+</body>
+</html>
